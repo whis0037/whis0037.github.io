@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>LIB2024-Assignmnent 3</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1 id="mainheading"> Registration Form
+	</h1>
+	<section id="html forms" class="main-section">
+			<form action="somepage.php" method="get">
+	<div id="first name container" class="form-elm">
+		<label for="first name">First Name</label>
+			<input type="text" name="first name" id="first name" placeholder="enter your name here">
+	</div>
+	<div id="last name container" class="form-elm">
+		<label for="last name">Last Name</label>
+			<input type="text" name="last name" id="last name" placeholder="enter your name here">
+	</div>
+	<div id="email container" class="form-elm">
+		<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="example@example.com">
+	</div>
+	<div id="password" name="password" class="form-elm">
+		<label for="password" size=20>Password</label>
+			<input type="password" name="password"> 
+	</div>
+	<div id="intro container" class="form-elm">
+				<label for="intro">Introduce yourself</label>
+				<textarea name="intro" id="intro" placeholder="Tell us about yourself"></textarea>
+	</div>
+	<div id="dob" name="dob" class="form-elm">
+		<label for="dob">Date of birth</label>
+			<input type="date" name="dob"> 
+	</div>
+	<div id="number" name="number" class="form-elm">
+		<label for="number">Telephone number</label>
+			<input type="number" name="number" size="10"> 
+	</div>
+	<div "id="gender container" class="form-elm">
+		<label for="gender">Gender</label>
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="other">Other
+	</div>
+	</div>
+	<br>
+	<div id="address" name="address" class="form-elm">
+		<b><legend>Address</legend></b>
+			<fieldset>
+				<label for="first line">First line</label>
+					<input type="input" name="first line" size="100" placeholder="House number and street name">
+						<br>
+				<label for="city">City</label>
+					<input type="text" name="city" size="50" placeholder="City"> 
+						<br>
+				<label for="province">Province</label>
+					<select id="province" name="province">
+						<option value="Alberta">Alberta</option>
+						<option value="British Columbia">British Columbia</option>
+						<option value="Manitoba">Manitoba</option>
+						<option value="New Brunswick">New Brunswick</option>
+						<option value="New Foundland and Labrador">New Foundland and Labrador</option>
+						<option value="Nova Scotia">Nova Scotia</option>
+						<option value="Nunavut">Anal Retentive</option>
+						<option value="Ontario">Ontario</option>
+						<option value="Prince Edward Island">Prince Edward Island</option>
+						<option value="Quebec">Quebec</option>
+						<option value="Saskatchewan">Saskatchewan</option>
+					</select>
+						<br>
+				<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="Canada">Canada</option>
+						<option value="Other">Other</option>
+					</select>
+						<br>
+				<label for="postcode">Postcode</label>
+					<input type="text" name="postcode" size="10" placeholder="Postcode"> 
+						<br>
+			</fieldset>
+	</div>
+	<br>
+	<div id="hobbies container" class="form-elm">
+				<label for="hobbies">Hobbies</label><br>
+					<input type="checkbox" name="hockey" value="hockey">hockey<br>
+					<input type="checkbox" name="football" value="football">football<br>
+					<input type="checkbox" name="knitting" value="knitting">knitting<br>
+					<input type="checkbox" name="cooking" value="cooking">cooking<br>
+					<input type="checkbox" name="painting" value="painting">painting<br>
+					<input type="checkbox" name="yoga" value="yoga">Yoga<br>
+	</div>
+	<br>
+	<div id="website" name="website" class="form-elm">
+		<label for="website">Website</label>
+			<input type="url" name="website" size="100" placeholder="www.example.com"> 
+	</div>
+	<div id="submit" name="submit" class="form-elm">
+	<br>
+				<button type="submit">SUBMIT</button>
+	</div>
+</body>
+</html>
