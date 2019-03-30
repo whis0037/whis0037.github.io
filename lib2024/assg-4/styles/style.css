@@ -1,4 +1,4 @@
-@charset"utf-8"
+@charset"utf-8";
 .clearfix:after {
    content: " "; 
    visibility: hidden;
@@ -16,7 +16,7 @@ header {
 h1 {
 			font-family: 'Cabin', sans-serif;
 			font-size: 40px;
-			font-weight: 400px;
+			font-weight: 400;
 			text-align: center;
 }
 .logo{
@@ -71,8 +71,8 @@ aside {
 .col {
   float: left;
   width: 33.33%;
-  margin: 1 1px;
-  padding: 1 0.5px;
+  margin: auto;
+  padding: auto;
 }
 
 
