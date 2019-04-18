@@ -1,0 +1,113 @@
+@charset"utf-8";
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+body {
+
+  background-image: url("images/memphis-mini.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+header {
+	background-color: #7cc576;
+	width: 100%;
+	height: 350px;
+  
+}
+
+h1 {
+			font-family: 'Fascinate Inline', cursive;
+			font-size: 40px;
+			font-weight: 400;
+			text-align: center;
+
+}
+.logo{
+	float: left;
+}
+ 
+.button {
+  background-color: #6dcff6;
+  border: none; 
+  color: black; 
+  padding: 12px 12px; 
+  font-size: 20px;
+  cursor: pointer; 
+  width: 18%;
+  float: left;
+  margin: 0 0.5%;
+  
+}
+
+.button:hover {
+  background-color: RoyalBlue;
+  font-family: 'Bree Serif', serif;
+} 
+h2	{
+	font-family: 'Bree Serif', serif;
+  font-size: 25px;
+}
+.picture {
+  float: left;
+  margin:  1.5%;
+  width: 30%;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+}
+.about {
+  float: left;
+  margin:  1.5%;
+  width: 40%;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+}
+
+.schedule {
+float: left;
+  margin:  1.5%;
+  width: 100%;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+
+}
+table {
+  border: 0.5px solid black;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+ 
+ .profile {
+ 	float: left;
+  margin:  2%;
+  width: 45%;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+
+ }
+ 
+.footercol {
+  float: left;
+  width: 33.33%;
+  margin: auto;
+  padding: auto;
+}
+
+
+footer {
+  clear: both;
+  background-color: #7cc576;
+	width: 100%;
+	height: 70px;
+	font-family: 'Bree Serif', serif;
+	font-size: 12px;
+}
