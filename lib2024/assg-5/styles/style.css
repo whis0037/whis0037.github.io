@@ -1,3 +1,55 @@
+@charset "utf-8"
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
 @charset"utf-8";
 .clearfix:after {
    content: " "; 
@@ -6,6 +58,13 @@
    height: 0;
    clear: both;
 }
+
+@media only screen and (min-width: 36em){
+  article{ width: 67%;float: left;margin-right: 0; }
+  aside{width: 21%; float: right; margin-left: 0;}
+  footer{clear: both;}
+}
+
 body {
 
   background-image: url("images/memphis-mini.png");
@@ -13,7 +72,7 @@ body {
   background-repeat: repeat;
 }
 header {
-	background-color: #7cc576;
+	background-color: #ffcc00;
 	width: 100%;
 	height: 350px;
   
@@ -55,6 +114,7 @@ h2	{
   float: left;
   margin:  1.5%;
   width: 30%;
+  min-width: 100px;
   font-family: 'Bree Serif', serif;
   font-size: 15px;
 }
@@ -75,7 +135,7 @@ float: left;
 
 }
 table {
-  border: 0.5px solid black;
+  border: 0.5px solid black; 
 }
 
 th, td {
@@ -83,11 +143,12 @@ th, td {
   text-align: left;
 }
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #ffcc00;
 }
  
  .profile {
  	float: left;
+  text-align: center;
   margin:  2%;
   width: 45%;
   font-family: 'Bree Serif', serif;
@@ -105,9 +166,9 @@ tr:nth-child(even) {
 
 footer {
   clear: both;
-  background-color: #7cc576;
+  background-color: #ffcc00;
 	width: 100%;
-	height: 70px;
+	height: 80px;
 	font-family: 'Bree Serif', serif;
 	font-size: 12px;
 }
