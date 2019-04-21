@@ -43,7 +43,7 @@
 		<article class="schedule">
 
 			<h2>Schedule</h2>
-			<table border="1">
+			<table>
 				<tr>
 					<td><b>Time</b></td>
 					<td><b>Monday</b></td>
@@ -73,7 +73,7 @@
 				</tr>
 				<tr>
 					<td>13:00 - 15:00</td>
-					<td colspan="7"ol>Lunch</td>
+					<td colspan="7">Lunch</td>
 
 				</tr>
 				<tr>
@@ -95,23 +95,23 @@
 			<h2>Edit Profile</h2>
 			<form action="somepage.php" method="get">
 	<div id="name-container">
-		<label for="name">First Name</label>
+		<label>First Name</label>
 			<input type="text" name="name" id="name" placeholder="enter your name here">
 	</div>
 	<div id="email-container">
-		<label for="email">Email</label>
+		<label>Email</label>
 			<input type="email" name="email" id="email" placeholder="example@example.com">
 	</div>
+	<br><legend>Address</legend>
 	<div id="address" class="form-elm">
-		<legend>Address</legend>
 		<br>
-			<label for="first-line">First line</label>
+			<label>First line</label>
 					<input type="text" name="first-line" size="20" placeholder="House number and street name">
 						<br>
-				<label for="city">City</label>
+				<label>City</label>
 					<input type="text" name="city" size="50" placeholder="City"> 
 						<br>
-				<label for="province">Province</label>
+				<label>Province</label>
 					<select id="province" name="province">
 						<option value="Alberta">Alberta</option>
 						<option value="British Columbia">British Columbia</option>
@@ -126,7 +126,7 @@
 						<option value="Saskatchewan">Saskatchewan</option>
 					</select>
 						<br>
-				<label for="postcode">Postcode</label>
+				<label>Postcode</label>
 					<input type="text" name="postcode" size="10" placeholder="Postcode"> 
 						<br>
 								<button type="submit">SUBMIT</button>
@@ -182,6 +182,7 @@
 			1385 Woodroffe Ave.
 			<br>
 			Nepean, ON. K2G 1V8
+		</div>
 		</footer>
 	</body>
 	</html>
